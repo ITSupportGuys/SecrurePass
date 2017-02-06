@@ -1,6 +1,6 @@
 <?php
 $epoch = time();
-$con = mysqli_connect("localhost", "$User", "$Pass", "$DB");
+$con = mysqli_connect("localhost", "$User", "$Password", "$DB");
 if (mysqli_connect_errno()) {
      die(mysqli_connect_error());
 }
